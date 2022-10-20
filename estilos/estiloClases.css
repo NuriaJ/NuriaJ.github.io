@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeceralogo {
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: rgb(131, 44, 146);
+    
+}
+
+#cabeceralogo>div {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 45px;
+}
+
+#cabeceralogo h1 {
+    font-size: 54px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #FFFFFF;
+}
+
+#menuprincipal {
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: rgb(250, 197, 255);
+    border-top: 1px solid rgb(131, 44, 146);
+    border-bottom: 1px solid rgb(131, 44, 146);
+}
+
+#menuprincipal>div {
+    width: 960px;
+    margin: 0px auto;
+}
+
+#menuprincipal li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#menuprincipal li:hover {
+    background-color: rgb(131, 44, 146);
+}
+
+#menuprincipal a {
+    font-size:  18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+main {
+    width: 96%;
+    padding: 2%;
+    background-image: url("fondo.png");
+}
+
+main>div {
+    width: 960px;
+    margin: 0px auto;
+}
+
+#articulosprincipales {
+    float: left;
+    width: 620px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#infoadicional {
+    float: right;
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(244, 208, 247);
+    border-radius: 10px;
+}
+
+#infoadicional h1 {
+    font-size:  18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#infoadicional p {
+
+    font-family: 'Comfortaa', sans-serif;
+    color: #333333;
+    margin-bottom:7px;
+}
+
+.recuperar {
+    clear: both;
+}
+
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: rgb(97, 30, 109);
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+}
+
+.numerodia {
+    font-size:  36px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nombredia {
+    font-size: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+article h1 {
+    margin-bottom: 5px;
+    font-size:  30px ;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+article p {
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+figure {
+    margin: 10px 0px;
+}
+
+figure img {
+    padding: 5px;
+    border: 1px solid;
+}
+
+#pielogo {
+    width: 96%;
+    padding: 2%;
+    background-color: rgb(131, 44, 146);
+}
+
+#pielogo>div {
+    width: 960px;
+    margin: 0px auto;
+    background-color: rgb(250, 197, 255);
+    border-radius: 10px;
+}
+
+.seccionpie {
+    float: left;
+    width: 270px;
+    padding: 25px;
+}
+
+.seccionpie h1 {
+    font-size:  20px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.seccionpie p {
+    margin-top: 5px;
+}
+
+.seccionpie a {
+    font-size:  16px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #666666;
+    text-decoration: none;
+}
+
+.seccionpie {
+    float: left;
+    width: 27.33%;
+    padding: 3%;
+}

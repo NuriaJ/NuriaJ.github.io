@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: url("../imagenes/fondo-morado.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#nombre{
+    font-family: 'Comfortaa', sans-serif;
+    color:rgb(250, 197, 255);
+}
+a, li{
+    font-family: 'Comfortaa', sans-serif;
+    color:white;
+}
+header{
+    background-color: rgb(131, 44, 146);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem .2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    
+    margin-right: 1.5rem;
+}
+.nav-menu a:hover{
+    color:rgb(250, 197, 255);
+}
+
+/*esto es para la caja de presentacion*/
+
+.caja{
+    width: 500px;
+    background: rgba(131, 44, 146, 0.3);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.imagen-caja{
+    border-radius: 50%;
+}
+
+.caja h1{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.caja h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom:20px;
+}
+
+.caja p{
+    
+    margin-bottom:5px;
+
+}
+
+/*esto es de la reticula */
+#tabla{
+    margin: auto;
+}
